@@ -165,7 +165,7 @@ architecture Behavioral of CamCtl is
 	
 	signal twiStb, twiDone, twiErr, twiRst, iTwiStb, twiNewMsg : std_logic;
 	signal twiAddr, twiDi, twiDo, iTwiData, iTwiAddr, regData1 : std_logic_vector(7 downto 0);
-	signal twiErrType : work.TWIUtils.error_type;
+	signal twiErrType : vmodcam_v1_00_a.TWIUtils.error_type;
 	
 	signal waitCnt : natural range 0 to CMD_DELAY_CYCLES := CMD_DELAY_CYCLES;
 	signal waitCntEn : std_logic;

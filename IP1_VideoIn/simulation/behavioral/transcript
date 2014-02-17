@@ -1,0 +1,882 @@
+# Reading C:/modeltech64_10.1c/tcl/vsim/pref.tcl 
+# //  ModelSim SE-64 10.1c Jul 28 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do system_setup.do 
+# Setting up simulation commands ... 
+# ********************************************************************** 
+# ********************************************************************** 
+# *** 
+# *** Simulation Setup Macros (system_setup.do) 
+# *** 
+# *** Because EDK did not create the testbench, the compile and load 
+# *** commands need changes to work with the user-generated testbench. 
+# *** For example, edit the testbench name in the vsim command. 
+# *** 
+# *** c => compile the design by running the EDK compile script. 
+# *** Assumes ISE and EDK libraries were compiled earlier 
+# *** for ModelSim. (see system.do) 
+# *** 
+# *** s => load the design for simulation. (ModelSim 'vsim' 
+# *** command with 'system') After loading the design, 
+# *** set up signal displays (optional) and run the simulation. 
+# *** (ModelSim 'run' command) 
+# *** 
+# *** l => set up signal list display and launch a list window. 
+# *** ModelSim 'add -list' commands are found in *_list.do 
+# *** scripts. (see system_list.do) 
+# *** 
+# *** w => set up signal wave display and launch a waveform window. 
+# *** ModelSim 'add -wave' commands are found in *_wave.do 
+# *** scripts. (see system_wave.do) 
+# *** 
+# *** clk => generate clock input stimulus 
+# *** 
+# *** rst => toggle reset ports and simulate 
+# *** 
+# *** h => print this message 
+# *** 
+# ********************************************************************** 
+# ********************************************************************** 
+ls
+# axi4_0_list.do
+# axi4_0_wave.do
+# axi4lite_0_list.do
+# axi4lite_0_wave.do
+# clock_generator_0_list.do
+# clock_generator_0_wave.do
+# debug_module_list.do
+# debug_module_wave.do
+# elaborate
+# hdmi_out_0_list.do
+# hdmi_out_0_wave.do
+# MCB_DDR2_list.do
+# MCB_DDR2_wave.do
+# microblaze_0_bram_block_combined_0.mem
+# microblaze_0_bram_block_combined_1.mem
+# microblaze_0_bram_block_combined_10.mem
+# microblaze_0_bram_block_combined_11.mem
+# microblaze_0_bram_block_combined_12.mem
+# microblaze_0_bram_block_combined_13.mem
+# microblaze_0_bram_block_combined_14.mem
+# microblaze_0_bram_block_combined_15.mem
+# microblaze_0_bram_block_combined_2.mem
+# microblaze_0_bram_block_combined_3.mem
+# microblaze_0_bram_block_combined_4.mem
+# microblaze_0_bram_block_combined_5.mem
+# microblaze_0_bram_block_combined_6.mem
+# microblaze_0_bram_block_combined_7.mem
+# microblaze_0_bram_block_combined_8.mem
+# microblaze_0_bram_block_combined_9.mem
+# microblaze_0_bram_block_list.do
+# microblaze_0_bram_block_wave.do
+# microblaze_0_d_bram_ctrl_list.do
+# microblaze_0_d_bram_ctrl_wave.do
+# microblaze_0_dlmb_list.do
+# microblaze_0_dlmb_wave.do
+# microblaze_0_i_bram_ctrl_list.do
+# microblaze_0_i_bram_ctrl_wave.do
+# microblaze_0_ilmb_list.do
+# microblaze_0_ilmb_wave.do
+# microblaze_0_list.do
+# microblaze_0_wave.do
+# pll_module_0_list.do
+# pll_module_0_wave.do
+# proc_sys_reset_0_list.do
+# proc_sys_reset_0_wave.do
+# RS232_Uart_1_list.do
+# RS232_Uart_1_wave.do
+# system.do
+# system.v
+# system_axi4_0_wrapper.v
+# system_axi4lite_0_wrapper.v
+# system_clock_generator_0_wrapper.vhd
+# system_debug_module_wrapper.vhd
+# system_hdmi_out_0_wrapper.v
+# system_list.do
+# system_mcb_ddr2_wrapper.v
+# system_microblaze_0_bram_block_wrapper.v
+# system_microblaze_0_d_bram_ctrl_wrapper.vhd
+# system_microblaze_0_dlmb_wrapper.vhd
+# system_microblaze_0_i_bram_ctrl_wrapper.vhd
+# system_microblaze_0_ilmb_wrapper.vhd
+# system_microblaze_0_wrapper.vhd
+# system_pll_module_0_wrapper.vhd
+# system_proc_sys_reset_0_wrapper.vhd
+# system_rs232_uart_1_wrapper.vhd
+# system_setup.do
+# system_sim.bmm
+# system_vmodcam_0_wrapper.vhd
+# system_wave.do
+# transcript
+# vmodcam_0_list.do
+# vmodcam_0_wave.do
+pwd
+# C:/fpga/XPS/IP1_VideoIn/simulation/behavioral
+cd ..
+ls
+# behavioral
+cd behavioral
+do system.do
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module microblaze_0_bram_block_elaborate
+# 
+# Top level modules:
+# 	microblaze_0_bram_block_elaborate
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module user_logic
+# ** Warning: C:/fpga/XPS/IP1_VideoIn/pcores/hdmi_out_v1_00_a/hdl/verilog/user_logic.v(603): (vlog-2256) Event expressions should result in a singular type.
+# 
+# 
+# Top level modules:
+# 	user_logic
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package proc_common_pkg
+# -- Loading package ipif_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Loading entity soft_reset
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Loading package family_support
+# -- Loading entity axi_lite_ipif
+# -- Loading entity axi_master_burst_reset
+# -- Loading entity axi_master_burst_stbs_set
+# -- Loading entity axi_master_burst_first_stb_offset
+# -- Loading entity axi_master_burst_cmd_status
+# -- Loading entity axi_master_burst_strb_gen
+# -- Loading entity axi_master_burst_pcc
+# -- Loading entity srl_fifo_f
+# -- Loading entity axi_master_burst_fifo
+# -- Loading entity axi_master_burst_addr_cntl
+# -- Loading entity axi_master_burst_rdmux
+# -- Loading entity axi_master_burst_rddata_cntl
+# -- Loading entity axi_master_burst_wrdata_cntl
+# -- Loading entity axi_master_burst_rd_status_cntl
+# -- Loading entity axi_master_burst_wr_status_cntl
+# -- Loading entity axi_master_burst_skid_buf
+# -- Loading entity axi_master_burst_wr_demux
+# -- Loading entity axi_master_burst_skid2mm_buf
+# -- Loading entity axi_master_burst_rd_wr_cntlr
+# -- Loading entity axi_master_burst_rd_llink
+# -- Loading entity axi_master_burst_wr_llink
+# -- Loading entity axi_master_burst
+# -- Compiling entity hdmi_out
+# -- Compiling architecture IMP of hdmi_out
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module convert_30to15_fifo
+# 
+# Top level modules:
+# 	convert_30to15_fifo
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module DRAM16XN
+# 
+# Top level modules:
+# 	DRAM16XN
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module dvi_encoder
+# 
+# Top level modules:
+# 	dvi_encoder
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module dvi_out_native
+# 
+# Top level modules:
+# 	dvi_out_native
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module encode
+# 
+# Top level modules:
+# 	encode
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module serdes_n_to_1
+# 
+# Top level modules:
+# 	serdes_n_to_1
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module hdmi_core
+# 
+# Top level modules:
+# 	hdmi_core
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module fill_fifo_fsm
+# 
+# Top level modules:
+# 	fill_fifo_fsm
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module pulse_gen
+# 
+# Top level modules:
+# 	pulse_gen
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Compiling entity clock_generator
+# -- Compiling architecture STRUCTURE of clock_generator
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package MATH_REAL
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package VCOMPONENTS
+# -- Compiling entity CamCtl
+# -- Compiling architecture Behavioral of CamCtl
+# ** Error: (vcom-11) Could not find work.twiutils.
+# 
+# ** Error: C:/fpga/XPS/IP1_VideoIn/pcores/vmodcam_v1_00_a/hdl/vhdl/CamCtl.vhd(168): (vcom-1195) Cannot find expanded name "work.TWIUtils".
+# 
+# ** Error: C:/fpga/XPS/IP1_VideoIn/pcores/vmodcam_v1_00_a/hdl/vhdl/CamCtl.vhd(168): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.localrst.
+# 
+# ** Error: C:/fpga/XPS/IP1_VideoIn/pcores/vmodcam_v1_00_a/hdl/vhdl/CamCtl.vhd(192): (vcom-1195) Cannot find expanded name "work.LocalRst".
+# 
+# ** Error: C:/fpga/XPS/IP1_VideoIn/pcores/vmodcam_v1_00_a/hdl/vhdl/CamCtl.vhd(192): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.twictl.
+# 
+# ** Error: C:/fpga/XPS/IP1_VideoIn/pcores/vmodcam_v1_00_a/hdl/vhdl/CamCtl.vhd(276): (vcom-1195) Cannot find expanded name "work.TWICtl".
+# 
+# ** Error: C:/fpga/XPS/IP1_VideoIn/pcores/vmodcam_v1_00_a/hdl/vhdl/CamCtl.vhd(276): Unknown expanded name.
+# ** Error: C:/fpga/XPS/IP1_VideoIn/pcores/vmodcam_v1_00_a/hdl/vhdl/CamCtl.vhd(457): VHDL Compiler exiting
+# ** Error: C:/modeltech64_10.1c/win64/vcom failed.
+# Error in macro ./system.do line 52
+# C:/modeltech64_10.1c/win64/vcom failed.
+#     while executing
+# "vcom -novopt -93 -work vmodcam_v1_00_a "C:/fpga/XPS/IP1_VideoIn/pcores/vmodcam_v1_00_a/hdl/vhdl/CamCtl.vhd""
+c
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# ** Warning: (vlib-34) Library already exists at "microblaze_0_bram_block_elaborate_v1_00_a".
+# 
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# ** Warning: (vlib-34) Library already exists at "hdmi_out_v1_00_a".
+# 
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# ** Warning: (vlib-34) Library already exists at "clock_generator_0_v4_03_a".
+# 
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# ** Warning: (vlib-34) Library already exists at "vmodcam_v1_00_a".
+# 
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module microblaze_0_bram_block_elaborate
+# 
+# Top level modules:
+# 	microblaze_0_bram_block_elaborate
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module user_logic
+# 
+# Top level modules:
+# 	user_logic
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package proc_common_pkg
+# -- Loading package ipif_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Loading entity soft_reset
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Loading package family_support
+# -- Loading entity axi_lite_ipif
+# -- Loading entity axi_master_burst_reset
+# -- Loading entity axi_master_burst_stbs_set
+# -- Loading entity axi_master_burst_first_stb_offset
+# -- Loading entity axi_master_burst_cmd_status
+# -- Loading entity axi_master_burst_strb_gen
+# -- Loading entity axi_master_burst_pcc
+# -- Loading entity srl_fifo_f
+# -- Loading entity axi_master_burst_fifo
+# -- Loading entity axi_master_burst_addr_cntl
+# -- Loading entity axi_master_burst_rdmux
+# -- Loading entity axi_master_burst_rddata_cntl
+# -- Loading entity axi_master_burst_wrdata_cntl
+# -- Loading entity axi_master_burst_rd_status_cntl
+# -- Loading entity axi_master_burst_wr_status_cntl
+# -- Loading entity axi_master_burst_skid_buf
+# -- Loading entity axi_master_burst_wr_demux
+# -- Loading entity axi_master_burst_skid2mm_buf
+# -- Loading entity axi_master_burst_rd_wr_cntlr
+# -- Loading entity axi_master_burst_rd_llink
+# -- Loading entity axi_master_burst_wr_llink
+# -- Loading entity axi_master_burst
+# -- Compiling entity hdmi_out
+# -- Compiling architecture IMP of hdmi_out
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module convert_30to15_fifo
+# 
+# Top level modules:
+# 	convert_30to15_fifo
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module DRAM16XN
+# 
+# Top level modules:
+# 	DRAM16XN
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module dvi_encoder
+# 
+# Top level modules:
+# 	dvi_encoder
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module dvi_out_native
+# 
+# Top level modules:
+# 	dvi_out_native
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module encode
+# 
+# Top level modules:
+# 	encode
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module serdes_n_to_1
+# 
+# Top level modules:
+# 	serdes_n_to_1
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module hdmi_core
+# 
+# Top level modules:
+# 	hdmi_core
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module fill_fifo_fsm
+# 
+# Top level modules:
+# 	fill_fifo_fsm
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module pulse_gen
+# 
+# Top level modules:
+# 	pulse_gen
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Compiling entity clock_generator
+# -- Compiling architecture STRUCTURE of clock_generator
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package MATH_REAL
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package VCOMPONENTS
+# -- Compiling entity CamCtl
+# -- Compiling architecture Behavioral of CamCtl
+# ** Error: (vcom-11) Could not find work.twiutils.
+# 
+# ** Error: C:/fpga/XPS/IP1_VideoIn/pcores/vmodcam_v1_00_a/hdl/vhdl/CamCtl.vhd(168): (vcom-1195) Cannot find expanded name "work.TWIUtils".
+# 
+# ** Error: C:/fpga/XPS/IP1_VideoIn/pcores/vmodcam_v1_00_a/hdl/vhdl/CamCtl.vhd(168): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.localrst.
+# 
+# ** Error: C:/fpga/XPS/IP1_VideoIn/pcores/vmodcam_v1_00_a/hdl/vhdl/CamCtl.vhd(192): (vcom-1195) Cannot find expanded name "work.LocalRst".
+# 
+# ** Error: C:/fpga/XPS/IP1_VideoIn/pcores/vmodcam_v1_00_a/hdl/vhdl/CamCtl.vhd(192): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.twictl.
+# 
+# ** Error: C:/fpga/XPS/IP1_VideoIn/pcores/vmodcam_v1_00_a/hdl/vhdl/CamCtl.vhd(276): (vcom-1195) Cannot find expanded name "work.TWICtl".
+# 
+# ** Error: C:/fpga/XPS/IP1_VideoIn/pcores/vmodcam_v1_00_a/hdl/vhdl/CamCtl.vhd(276): Unknown expanded name.
+# ** Error: C:/fpga/XPS/IP1_VideoIn/pcores/vmodcam_v1_00_a/hdl/vhdl/CamCtl.vhd(457): VHDL Compiler exiting
+# ** Error: C:/modeltech64_10.1c/win64/vcom failed.
+# Error in macro ./system.do line 52
+# C:/modeltech64_10.1c/win64/vcom failed.
+#     while executing
+# "vcom -novopt -93 -work vmodcam_v1_00_a "C:/fpga/XPS/IP1_VideoIn/pcores/vmodcam_v1_00_a/hdl/vhdl/CamCtl.vhd""
+# 1
+ls
+# axi4_0_list.do
+# axi4_0_wave.do
+# axi4lite_0_list.do
+# axi4lite_0_wave.do
+# clock_generator_0_list.do
+# clock_generator_0_v4_03_a
+# clock_generator_0_wave.do
+# debug_module_list.do
+# debug_module_wave.do
+# elaborate
+# hdmi_out_0_list.do
+# hdmi_out_0_wave.do
+# hdmi_out_v1_00_a
+# MCB_DDR2_list.do
+# MCB_DDR2_wave.do
+# microblaze_0_bram_block_combined_0.mem
+# microblaze_0_bram_block_combined_1.mem
+# microblaze_0_bram_block_combined_10.mem
+# microblaze_0_bram_block_combined_11.mem
+# microblaze_0_bram_block_combined_12.mem
+# microblaze_0_bram_block_combined_13.mem
+# microblaze_0_bram_block_combined_14.mem
+# microblaze_0_bram_block_combined_15.mem
+# microblaze_0_bram_block_combined_2.mem
+# microblaze_0_bram_block_combined_3.mem
+# microblaze_0_bram_block_combined_4.mem
+# microblaze_0_bram_block_combined_5.mem
+# microblaze_0_bram_block_combined_6.mem
+# microblaze_0_bram_block_combined_7.mem
+# microblaze_0_bram_block_combined_8.mem
+# microblaze_0_bram_block_combined_9.mem
+# microblaze_0_bram_block_elaborate_v1_00_a
+# microblaze_0_bram_block_list.do
+# microblaze_0_bram_block_wave.do
+# microblaze_0_d_bram_ctrl_list.do
+# microblaze_0_d_bram_ctrl_wave.do
+# microblaze_0_dlmb_list.do
+# microblaze_0_dlmb_wave.do
+# microblaze_0_i_bram_ctrl_list.do
+# microblaze_0_i_bram_ctrl_wave.do
+# microblaze_0_ilmb_list.do
+# microblaze_0_ilmb_wave.do
+# microblaze_0_list.do
+# microblaze_0_wave.do
+# pll_module_0_list.do
+# pll_module_0_wave.do
+# proc_sys_reset_0_list.do
+# proc_sys_reset_0_wave.do
+# RS232_Uart_1_list.do
+# RS232_Uart_1_wave.do
+# system.do
+# system.v
+# system_axi4_0_wrapper.v
+# system_axi4lite_0_wrapper.v
+# system_clock_generator_0_wrapper.vhd
+# system_debug_module_wrapper.vhd
+# system_hdmi_out_0_wrapper.v
+# system_list.do
+# system_mcb_ddr2_wrapper.v
+# system_microblaze_0_bram_block_wrapper.v
+# system_microblaze_0_d_bram_ctrl_wrapper.vhd
+# system_microblaze_0_dlmb_wrapper.vhd
+# system_microblaze_0_i_bram_ctrl_wrapper.vhd
+# system_microblaze_0_ilmb_wrapper.vhd
+# system_microblaze_0_wrapper.vhd
+# system_pll_module_0_wrapper.vhd
+# system_proc_sys_reset_0_wrapper.vhd
+# system_rs232_uart_1_wrapper.vhd
+# system_setup.do
+# system_sim.bmm
+# system_vmodcam_0_wrapper.vhd
+# system_wave.do
+# transcript
+# vmodcam_0_list.do
+# vmodcam_0_wave.do
+# vmodcam_v1_00_a
+# work
+c
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# ** Warning: (vlib-34) Library already exists at "microblaze_0_bram_block_elaborate_v1_00_a".
+# 
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# ** Warning: (vlib-34) Library already exists at "hdmi_out_v1_00_a".
+# 
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# ** Warning: (vlib-34) Library already exists at "clock_generator_0_v4_03_a".
+# 
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# ** Warning: (vlib-34) Library already exists at "vmodcam_v1_00_a".
+# 
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module microblaze_0_bram_block_elaborate
+# 
+# Top level modules:
+# 	microblaze_0_bram_block_elaborate
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module user_logic
+# 
+# Top level modules:
+# 	user_logic
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package proc_common_pkg
+# -- Loading package ipif_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Loading entity soft_reset
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Loading package family_support
+# -- Loading entity axi_lite_ipif
+# -- Loading entity axi_master_burst_reset
+# -- Loading entity axi_master_burst_stbs_set
+# -- Loading entity axi_master_burst_first_stb_offset
+# -- Loading entity axi_master_burst_cmd_status
+# -- Loading entity axi_master_burst_strb_gen
+# -- Loading entity axi_master_burst_pcc
+# -- Loading entity srl_fifo_f
+# -- Loading entity axi_master_burst_fifo
+# -- Loading entity axi_master_burst_addr_cntl
+# -- Loading entity axi_master_burst_rdmux
+# -- Loading entity axi_master_burst_rddata_cntl
+# -- Loading entity axi_master_burst_wrdata_cntl
+# -- Loading entity axi_master_burst_rd_status_cntl
+# -- Loading entity axi_master_burst_wr_status_cntl
+# -- Loading entity axi_master_burst_skid_buf
+# -- Loading entity axi_master_burst_wr_demux
+# -- Loading entity axi_master_burst_skid2mm_buf
+# -- Loading entity axi_master_burst_rd_wr_cntlr
+# -- Loading entity axi_master_burst_rd_llink
+# -- Loading entity axi_master_burst_wr_llink
+# -- Loading entity axi_master_burst
+# -- Compiling entity hdmi_out
+# -- Compiling architecture IMP of hdmi_out
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module convert_30to15_fifo
+# 
+# Top level modules:
+# 	convert_30to15_fifo
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module DRAM16XN
+# 
+# Top level modules:
+# 	DRAM16XN
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module dvi_encoder
+# 
+# Top level modules:
+# 	dvi_encoder
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module dvi_out_native
+# 
+# Top level modules:
+# 	dvi_out_native
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module encode
+# 
+# Top level modules:
+# 	encode
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module serdes_n_to_1
+# 
+# Top level modules:
+# 	serdes_n_to_1
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module hdmi_core
+# 
+# Top level modules:
+# 	hdmi_core
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module fill_fifo_fsm
+# 
+# Top level modules:
+# 	fill_fifo_fsm
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module pulse_gen
+# 
+# Top level modules:
+# 	pulse_gen
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Compiling entity clock_generator
+# -- Compiling architecture STRUCTURE of clock_generator
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package MATH_REAL
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package VCOMPONENTS
+# -- Compiling entity CamCtl
+# -- Compiling architecture Behavioral of CamCtl
+# ** Error: (vcom-11) Could not find work.vmodcam_v1_00_a.
+# 
+# ** Error: C:/fpga/XPS/IP1_VideoIn/pcores/vmodcam_v1_00_a/hdl/vhdl/CamCtl.vhd(168): (vcom-1195) Cannot find expanded name "work.vmodcam_v1_00_a".
+# 
+# ** Error: C:/fpga/XPS/IP1_VideoIn/pcores/vmodcam_v1_00_a/hdl/vhdl/CamCtl.vhd(168): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.localrst.
+# 
+# ** Error: C:/fpga/XPS/IP1_VideoIn/pcores/vmodcam_v1_00_a/hdl/vhdl/CamCtl.vhd(192): (vcom-1195) Cannot find expanded name "work.LocalRst".
+# 
+# ** Error: C:/fpga/XPS/IP1_VideoIn/pcores/vmodcam_v1_00_a/hdl/vhdl/CamCtl.vhd(192): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.twictl.
+# 
+# ** Error: C:/fpga/XPS/IP1_VideoIn/pcores/vmodcam_v1_00_a/hdl/vhdl/CamCtl.vhd(276): (vcom-1195) Cannot find expanded name "work.TWICtl".
+# 
+# ** Error: C:/fpga/XPS/IP1_VideoIn/pcores/vmodcam_v1_00_a/hdl/vhdl/CamCtl.vhd(276): Unknown expanded name.
+# ** Error: C:/fpga/XPS/IP1_VideoIn/pcores/vmodcam_v1_00_a/hdl/vhdl/CamCtl.vhd(457): VHDL Compiler exiting
+# ** Error: C:/modeltech64_10.1c/win64/vcom failed.
+# Error in macro ./system.do line 52
+# C:/modeltech64_10.1c/win64/vcom failed.
+#     while executing
+# "vcom -novopt -93 -work vmodcam_v1_00_a "C:/fpga/XPS/IP1_VideoIn/pcores/vmodcam_v1_00_a/hdl/vhdl/CamCtl.vhd""
+# 1
+c
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# ** Warning: (vlib-34) Library already exists at "microblaze_0_bram_block_elaborate_v1_00_a".
+# 
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# ** Warning: (vlib-34) Library already exists at "hdmi_out_v1_00_a".
+# 
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# ** Warning: (vlib-34) Library already exists at "clock_generator_0_v4_03_a".
+# 
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# ** Warning: (vlib-34) Library already exists at "vmodcam_v1_00_a".
+# 
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Modifying C:\modeltech64_10.1c\modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module microblaze_0_bram_block_elaborate
+# 
+# Top level modules:
+# 	microblaze_0_bram_block_elaborate
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module user_logic
+# 
+# Top level modules:
+# 	user_logic
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package proc_common_pkg
+# -- Loading package ipif_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Loading entity soft_reset
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Loading package family_support
+# -- Loading entity axi_lite_ipif
+# -- Loading entity axi_master_burst_reset
+# -- Loading entity axi_master_burst_stbs_set
+# -- Loading entity axi_master_burst_first_stb_offset
+# -- Loading entity axi_master_burst_cmd_status
+# -- Loading entity axi_master_burst_strb_gen
+# -- Loading entity axi_master_burst_pcc
+# -- Loading entity srl_fifo_f
+# -- Loading entity axi_master_burst_fifo
+# -- Loading entity axi_master_burst_addr_cntl
+# -- Loading entity axi_master_burst_rdmux
+# -- Loading entity axi_master_burst_rddata_cntl
+# -- Loading entity axi_master_burst_wrdata_cntl
+# -- Loading entity axi_master_burst_rd_status_cntl
+# -- Loading entity axi_master_burst_wr_status_cntl
+# -- Loading entity axi_master_burst_skid_buf
+# -- Loading entity axi_master_burst_wr_demux
+# -- Loading entity axi_master_burst_skid2mm_buf
+# -- Loading entity axi_master_burst_rd_wr_cntlr
+# -- Loading entity axi_master_burst_rd_llink
+# -- Loading entity axi_master_burst_wr_llink
+# -- Loading entity axi_master_burst
+# -- Compiling entity hdmi_out
+# -- Compiling architecture IMP of hdmi_out
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module convert_30to15_fifo
+# 
+# Top level modules:
+# 	convert_30to15_fifo
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module DRAM16XN
+# 
+# Top level modules:
+# 	DRAM16XN
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module dvi_encoder
+# 
+# Top level modules:
+# 	dvi_encoder
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module dvi_out_native
+# 
+# Top level modules:
+# 	dvi_out_native
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module encode
+# 
+# Top level modules:
+# 	encode
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module serdes_n_to_1
+# 
+# Top level modules:
+# 	serdes_n_to_1
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module hdmi_core
+# 
+# Top level modules:
+# 	hdmi_core
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module fill_fifo_fsm
+# 
+# Top level modules:
+# 	fill_fifo_fsm
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Skipping module pulse_gen
+# 
+# Top level modules:
+# 	pulse_gen
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Compiling entity clock_generator
+# -- Compiling architecture STRUCTURE of clock_generator
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package MATH_REAL
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package VCOMPONENTS
+# -- Compiling entity CamCtl
+# -- Compiling architecture Behavioral of CamCtl
+# ** Error: C:/fpga/XPS/IP1_VideoIn/pcores/vmodcam_v1_00_a/hdl/vhdl/CamCtl.vhd(168): (vcom-1136) Unknown identifier "vmodcam_v1_00_a".
+# 
+# ** Error: (vcom-11) Could not find work.localrst.
+# 
+# ** Error: C:/fpga/XPS/IP1_VideoIn/pcores/vmodcam_v1_00_a/hdl/vhdl/CamCtl.vhd(192): (vcom-1195) Cannot find expanded name "work.LocalRst".
+# 
+# ** Error: C:/fpga/XPS/IP1_VideoIn/pcores/vmodcam_v1_00_a/hdl/vhdl/CamCtl.vhd(192): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.twictl.
+# 
+# ** Error: C:/fpga/XPS/IP1_VideoIn/pcores/vmodcam_v1_00_a/hdl/vhdl/CamCtl.vhd(276): (vcom-1195) Cannot find expanded name "work.TWICtl".
+# 
+# ** Error: C:/fpga/XPS/IP1_VideoIn/pcores/vmodcam_v1_00_a/hdl/vhdl/CamCtl.vhd(276): Unknown expanded name.
+# ** Error: C:/fpga/XPS/IP1_VideoIn/pcores/vmodcam_v1_00_a/hdl/vhdl/CamCtl.vhd(457): VHDL Compiler exiting
+# ** Error: C:/modeltech64_10.1c/win64/vcom failed.
+# Error in macro ./system.do line 52
+# C:/modeltech64_10.1c/win64/vcom failed.
+#     while executing
+# "vcom -novopt -93 -work vmodcam_v1_00_a "C:/fpga/XPS/IP1_VideoIn/pcores/vmodcam_v1_00_a/hdl/vhdl/CamCtl.vhd""
+# 1
+vsim vmodcam_v1_00_a.camctl
+# vsim vmodcam_v1_00_a.camctl 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Error: Failed to find design unit vmodcam_v1_00_a.camctl.
+# Optimization failed
+# Error loading design

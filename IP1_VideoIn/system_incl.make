@@ -21,7 +21,7 @@ DEVICE = xc6slx45csg324-3
 
 INTSTYLE = default
 
-XPS_HDL_LANG = vhdl
+XPS_HDL_LANG = verilog
 GLOBAL_SEARCHPATHOPT = 
 PROJECT_SEARCHPATHOPT = 
 
@@ -57,7 +57,7 @@ TIMING_SIM_SCRIPT = simulation/timing/$(SYSTEM)_setup.do
 
 DEFAULT_SIM_SCRIPT = $(BEHAVIORAL_SIM_SCRIPT)
 
-SIMGEN_OPTIONS = -p $(DEVICE) -lang $(XPS_HDL_LANG) -intstyle $(INTSTYLE) $(SEARCHPATHOPT) $(BRAMINIT_ELF_SIM_FILE_ARGS) -msg __xps/ise/xmsgprops.lst -s mgm -X C:/Xilinx/14.2/ISE_DS/ISE/bin/nt64
+SIMGEN_OPTIONS = -p $(DEVICE) -lang $(XPS_HDL_LANG) -intstyle $(INTSTYLE) $(SEARCHPATHOPT) $(BRAMINIT_ELF_SIM_FILE_ARGS) -msg __xps/ise/xmsgprops.lst -s mgm -X C:/Xilinx/14.2/ISE_DS/ISE/verilog/mti_se/10.1c/nt64
 
 
 CORE_STATE_DEVELOPMENT_FILES = C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/family.vhd \

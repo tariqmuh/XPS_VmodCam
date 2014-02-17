@@ -1,0 +1,18 @@
+C:\fpga\XPS\IP1_VideoIn\implementation\system.ngc 1392659796
+C:/fpga/XPS/IP1_VideoIn/implementation/system_vmodcam_0_wrapper.ngc 1392659422
+C:/fpga/XPS/IP1_VideoIn/implementation/system_rs232_uart_1_wrapper.ngc 1392659422
+C:/fpga/XPS/IP1_VideoIn/implementation/system_proc_sys_reset_0_wrapper.ngc 1392659422
+C:/fpga/XPS/IP1_VideoIn/implementation/system_pll_module_0_wrapper.ngc 1392659422
+C:/fpga/XPS/IP1_VideoIn/implementation/system_clock_generator_0_wrapper.ngc 1392659646
+C:/fpga/XPS/IP1_VideoIn/implementation/system_microblaze_0_ilmb_wrapper.ngc 1392659422
+C:/fpga/XPS/IP1_VideoIn/implementation/system_microblaze_0_dlmb_wrapper.ngc 1392659422
+C:/fpga/XPS/IP1_VideoIn/implementation/system_mcb_ddr2_wrapper.ngc 1392659422
+C:/fpga/XPS/IP1_VideoIn/implementation/system_axi4lite_0_wrapper.ngc 1392659422
+C:/fpga/XPS/IP1_VideoIn/implementation/system_axi4_0_wrapper.ngc 1392659422
+C:/fpga/XPS/IP1_VideoIn/implementation/system_microblaze_0_wrapper.ngc 1392659422
+C:/fpga/XPS/IP1_VideoIn/implementation/system_hdmi_out_0_wrapper.ngc 1392659590
+C:/fpga/XPS/IP1_VideoIn/implementation/system_microblaze_0_i_bram_ctrl_wrapper.ngc 1392659422
+C:/fpga/XPS/IP1_VideoIn/implementation/system_microblaze_0_d_bram_ctrl_wrapper.ngc 1392659422
+C:/fpga/XPS/IP1_VideoIn/implementation/system_debug_module_wrapper.ngc 1392659422
+C:/fpga/XPS/IP1_VideoIn/implementation/system_microblaze_0_bram_block_wrapper.ngc 1392659422
+OK

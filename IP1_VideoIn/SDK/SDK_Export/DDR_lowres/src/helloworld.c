@@ -55,11 +55,11 @@ int main() {
 	printf("vmod - slvreg0: %d, slvreg1: %d slvreg2: %d\n\r", vmod_addr[4], vmod_addr[5], vmod_addr[6]);
 	printf("hdmi - slvreg0: %d, slvreg1: %d slvreg2: %d\n\r", hdmi_addr[0], hdmi_addr[1], hdmi_addr[2]);
 
-	volatile int *ddr_addr2 = (volatile int *) 0xA0040000;
+	volatile int *ddr_addr2 = (volatile int *) 0xA0200000;
 	while(1){
 
 		//for(j = 0; j<480 ; j++){
-			for(i=0; i<640*480 ; i++){
+			for(i=0; i<640*480/2 ; i++){
 
 				printf("%x ", ddr_addr[i] );
 			}

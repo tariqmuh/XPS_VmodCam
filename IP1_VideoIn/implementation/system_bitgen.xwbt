@@ -1,7 +1,7 @@
-INFILE=C:\fpga\XPS\IP1_VideoIn\implementation\system.ncd
-OUTFILE=C:\fpga\XPS\IP1_VideoIn\implementation\system.bit
+INFILE=C:\Users\tariqmuh\Documents\GitHub\XPS_VmodCam\IP1_VideoIn\implementation\system.ncd
+OUTFILE=C:\Users\tariqmuh\Documents\GitHub\XPS_VmodCam\IP1_VideoIn\implementation\system.bit
 FAMILY=Spartan6
 PART=xc6slx45-3csg324
-WORKINGDIR=C:\fpga\XPS\IP1_VideoIn\implementation
+WORKINGDIR=C:\Users\tariqmuh\Documents\GitHub\XPS_VmodCam\IP1_VideoIn\implementation
 LICENSE=ISE
 USER_INFO=174112640_174112641_177140320_866

@@ -4,7 +4,6 @@ VerMgmt: 14.2
 IntStyle: default
 Flow: ise
 ModuleSearchPath: C:/Thesis/Atlys_BSB_Support_v_3_6/Atlys_AXI_BSB_Support/lib
-ModuleSearchPath: C:/Thesis/Atlys_BSB_Support_v_3_6/Atlys_AXI_BSB_Support/lib
 MHS File: system.mhs
 Architecture: spartan6
 Device: xc6slx45

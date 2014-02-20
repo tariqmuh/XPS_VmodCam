@@ -15,7 +15,6 @@ entity system_vmodcam_0_wrapper is
     SW_I : in std_logic_vector(7 downto 0);
     LED_O : out std_logic_vector(7 downto 0);
     RESET_I : in std_logic;
-    CAMA_CLK : out std_logic;
     CamClk : in std_logic;
     CamClk_180 : in std_logic;
     CAMA_SDA : inout std_logic;
@@ -120,7 +119,6 @@ architecture STRUCTURE of system_vmodcam_0_wrapper is
       SW_I : in std_logic_vector(7 downto 0);
       LED_O : out std_logic_vector(7 downto 0);
       RESET_I : in std_logic;
-      CAMA_CLK : out std_logic;
       CamClk : in std_logic;
       CamClk_180 : in std_logic;
       CAMA_SDA : inout std_logic;
@@ -225,7 +223,6 @@ begin
       SW_I => SW_I,
       LED_O => LED_O,
       RESET_I => RESET_I,
-      CAMA_CLK => CAMA_CLK,
       CamClk => CamClk,
       CamClk_180 => CamClk_180,
       CAMA_SDA => CAMA_SDA,

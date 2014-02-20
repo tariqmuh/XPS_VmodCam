@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2014-02-17T14:49:54</DateModified>
+  <DateModified>2014-02-19T13:59:13</DateModified>
   <ModuleName>system</ModuleName>
-  <SummaryTimeStamp>2014-02-17T14:49:53</SummaryTimeStamp>
-  <SavedFilePath>C:/fpga/XPS/IP1_VideoIn/__xps/ise/system.xreport</SavedFilePath>
+  <SummaryTimeStamp>2014-02-19T13:59:13</SummaryTimeStamp>
+  <SavedFilePath>C:/Users/tariqmuh/Documents/GitHub/XPS_VmodCam/IP1_VideoIn/__xps/ise/system.xreport</SavedFilePath>
   <FilterFile>filter.filter</FilterFile>
-  <SavedFilterFilePath>C:/fpga/XPS/IP1_VideoIn/__xps/ise</SavedFilterFilePath>
+  <SavedFilterFilePath>C:/Users/tariqmuh/Documents/GitHub/XPS_VmodCam/IP1_VideoIn/__xps/ise</SavedFilterFilePath>
   <DateInitialized>2014-02-09T16:25:37</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
